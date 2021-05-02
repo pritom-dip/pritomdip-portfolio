@@ -16,8 +16,6 @@ const Portfolio = () => {
         }
     }, [setCategory])
 
-
-
     return (
         <div id="page">
 
@@ -44,19 +42,11 @@ const Portfolio = () => {
                             </div>
                         </div> */}
 
-
                         <div className="row portfolio-items mb-50">
 
                             {
                                 projects?.map(project => <Project key={project?.id} project={project} />)
                             }
-
-                            {/* <Project />
-                            <Project />
-                            <Project />
-                            <Project />
-                            <Project />
-                            <Project /> */}
 
                         </div>
                     </div>

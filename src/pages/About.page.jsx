@@ -50,7 +50,7 @@ const About = () => {
                                         <li><span className="title">Name</span><span className="value">Pritom Chowdhury Dip</span></li>
                                         <li><span className="title">Age</span><span className="value">27 Years</span></li>
                                         <li><span className="title">Residence</span><span className="value">Khilkhet, Dhaka</span></li>
-                                        <li><span className="title">Address</span><span className="value">123 Lorem Ipsum</span></li>
+                                        <li><span className="title">Address</span><span className="value">Road no 7. house no 21, Nikunjo, Dhaka</span></li>
                                         <li><span className="title">Email</span><span className="value">pritomdip010@gmail.com</span></li>
                                         <li><span className="title">Github</span><span className="value"><a target="_blank" href="https://github.com/pritom-dip">Click Here</a></span></li>
                                         <li><span className="title">Linkdin</span><span className="value"><a target="_blank" href="https://linkedin.com/in/pritom-chowdhury-dip/">Click Here</a></span></li>
