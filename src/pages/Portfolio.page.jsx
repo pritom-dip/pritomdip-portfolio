@@ -33,7 +33,7 @@ const Portfolio = () => {
                             <h2>Portfolio.</h2>
                         </div>
 
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-md-12 portfolio-filter text-center">
                                 <ul>
                                     <li className="active" data-filter="*">All</li>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                                     <li data-filter=".graphic">Graphic</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
 
                         <div className="row portfolio-items mb-50">

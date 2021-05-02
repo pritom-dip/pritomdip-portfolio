@@ -1,17 +1,19 @@
 import React from 'react';
 
-const Project = () => {
+const Project = ({ project }) => {
     return (
         <div className="item col-lg-4 col-sm-6 all brand graphic">
-            <a className="image-link" href="img/portfolio/img-1.jpg">
-                <figure>
-                    <img src="https://watson-vcard.netlify.app/img/portfolio/img-1.jpg" alt="" />
-                    <figcaption>
-                        <h4>Hello</h4>
-                        <p>Graphic</p>
-                    </figcaption>
-                </figure>
-            </a>
+            <figure>
+                <img style={{ height: '285px' }} src={project?.image} alt={project?.title} />
+                <figcaption>
+                    <h4>{project?.title}</h4>
+                    <p>{project.technology}</p>
+                    <p>
+                        <a target="_blank" style={{ background: '#000', color: '#fff' }} href={project?.source_code} rel="noreferrer" className="btn btn-primary mr-2">Github</a>
+                        <a target="_blank" style={{ background: '#000', color: '#fff' }} href={project?.live_url} rel="noreferrer" className="btn btn-primary">Live Link</a>
+                    </p>
+                </figcaption>
+            </figure>
         </div>
 
     );
