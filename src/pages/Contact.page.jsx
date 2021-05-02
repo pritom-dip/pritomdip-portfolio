@@ -85,32 +85,26 @@ const Contact = () => {
 
                         <div className="row contact-info mb-70">
 
-
                             <div className="col-md-4 info-item">
                                 <span className="icon"><i className="fas fa-paper-plane"></i></span>
-                                <h5><a href="mailto:example@example.com">example@example.com</a></h5>
+                                <h5><a href="mailto:pritomdip010@gmail.com">pritomdip010@gmail.com</a></h5>
                             </div>
-
 
                             <div className="col-md-4 info-item">
                                 <span className="icon"><i className="fas fa-map-marker-alt"></i></span>
-                                <h5>123 Lorem Ipsum, USA</h5>
+                                <h5>Dhaka, Bangladesh</h5>
                             </div>
 
 
                             <div className="col-md-4 info-item">
                                 <span className="icon"><i className="fas fa-phone"></i></span>
-                                <h5>(+1) 123 456 7890</h5>
+                                <h5>(+88) 01635544915</h5>
                             </div>
 
                         </div>
-
                     </div>
-
                 </section>
-
             </div>
-
         </div >
     );
 };
