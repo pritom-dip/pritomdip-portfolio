@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-
 import { Link } from 'react-router-dom';
-
+import profileImg from '../../images/pritomdipnew.png';
 const Sidebar = () => {
 
     const [toggle, setToggle] = useState(false);
@@ -22,7 +21,7 @@ const Sidebar = () => {
                 <div className="header-main" data-simplebar>
                     <div className="image-container">
                         <h2 className="header-name">Pritom Chowdhury Dip</h2>
-                        <img src="https://watson-vcard.netlify.app/img/profile-img.jpg" alt="profile-pic" />
+                        <img src={profileImg} alt="profile-pic" />
                     </div>
 
                     <nav className="nav-menu">
@@ -39,11 +38,9 @@ const Sidebar = () => {
                     <div className="nav-footer">
 
                         <ul className="social">
-                            <li><a href="#"><i className="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i className="fab fa-youtube-square"></i></a></li>
-                            <li><a href="#"><i className="fab fa-dribbble-square"></i></a></li>
-                            <li><a href="#"><i className="fab fa-behance-square"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/pritomchowdhurydip"><i className="fab fa-facebook-square"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/pritom-dip"><i className="fab fa-github"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/pritom-chowdhury-dip/"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
 
                         <div className="copy">
