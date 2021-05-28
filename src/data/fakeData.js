@@ -23,11 +23,11 @@ const fakeData = [
         id: 3,
         category: "fullstack",
         image: 'https://i.ibb.co/tmN6T7K/Fire-Shot-Capture-049-React-App-consulting-theme-netlify-app.png',
-        title: "React Consulting Website",
+        title: "React Redux Ecommerce",
         technology: 'reactJs, Redux, react-router-dom, Swiper react, bootstrap',
         description: "A ecommerce site by react & redux",
         source_code: "https://github.com/pritom-dip/ecom-react",
-        live_url: "http://xenodochial-ptolemy-74b3fd.netlify.app/",
+        live_url: "https://xenodochial-ptolemy-74b3fd.netlify.app/",
     },
     {
         id: 4,
